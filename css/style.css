@@ -1,0 +1,9 @@
+@import "normalize.css";
+@import "settings.css";
+@import "fonts.css";
+@import "var.css";
+
+@import "./../blocks/header/header.css";
+@import "./../blocks/banner/banner.css";
+@import "./../blocks/features/features.css";
+@import "./../blocks/footer/footer.css";
