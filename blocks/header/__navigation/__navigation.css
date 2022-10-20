@@ -1,0 +1,8 @@
+.header__navigation {
+  width: 113rem;
+  height: 4rem;
+  margin: 0 auto 13rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

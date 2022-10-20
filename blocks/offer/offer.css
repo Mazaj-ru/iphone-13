@@ -1,0 +1,7 @@
+@import "__price/__price.css";
+@import "./__banner/__banner.css";
+
+.offer {
+  text-align: center;
+  margin-bottom: 14rem;
+}

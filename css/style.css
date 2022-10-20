@@ -1,9 +1,15 @@
 @import "normalize.css";
 @import "settings.css";
 @import "fonts.css";
-@import "var.css";
 
 @import "./../blocks/header/header.css";
-@import "./../blocks/banner/banner.css";
+@import "./../blocks/header/__navigation/__navigation.css";
+@import "./../blocks/logo/logo.css";
+@import "./../blocks/nav/nav.css";
+@import "./../blocks/main/main.css";
+@import "./../blocks/offer/offer.css";
 @import "./../blocks/features/features.css";
 @import "./../blocks/footer/footer.css";
+
+@import "./../blocks/title/title.css";
+@import "./../blocks/btn/btn.css";
