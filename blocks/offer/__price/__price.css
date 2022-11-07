@@ -22,10 +22,18 @@
 
 /* (min-width: 768px) and (max-width: 1023px) */
 @media (min-width: 48em) and (max-width: 63.9375em) {
-
+  .offer__price {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: 6.4rem;
+  }
 }
 
 /* (max-width: 767px) */
 @media (max-width: 47.9375em) {
-
+  .offer__price {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: 6.4rem;
+  }
 }

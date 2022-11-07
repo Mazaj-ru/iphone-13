@@ -37,4 +37,7 @@
   .nav__item:not(:last-child)::after {
     display: none;
   }
+  .nav__item:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }
