@@ -2,3 +2,35 @@
   font-size: 2rem;
   line-height: 2.4rem;
 }
+
+/* (min-width: 1440px) and (max-width: 1599px) */
+@media (min-width: 90em) and (max-width: 99.9375em) {
+  .nav__link {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+/* (min-width: 1024px) and (max-width: 1439px) */
+@media (min-width: 64em) and (max-width: 89.9375em) {
+  .nav__link {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+/* (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 48em) and (max-width: 63.9375em) {
+  .nav__link {
+    font-size: 3.6rem;
+    line-height: 4.8rem;
+  }
+}
+
+/* (max-width: 767px) */
+@media (max-width: 47.9375em) {
+  .nav__link {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+}

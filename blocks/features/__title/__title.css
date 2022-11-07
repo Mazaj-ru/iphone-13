@@ -1,7 +1,5 @@
-.main__title {
-  font-size: 2rem;
-  line-height: 2.3rem;
-  margin-bottom: 2.4rem;
+.features__title {
+  margin-bottom: 8rem;
 }
 
 /* (max-width: 767px) */

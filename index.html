@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,32 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>iphone-13</title>
 </head>
+
 <body>
+
+  <div id="overlay"></div>
+  <div class="wrapper">
   <header class="header">
-    <div class="header__navigation">
-      <img class="logo" src="./blocks/logo/img/logo.svg" alt="Логотип">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="#">Оформить предзаказ</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Доставка</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Официальный сайт Apple</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="header__navigation">
+        <img class="logo" src="./blocks/logo/img/logo.svg" alt="Логотип">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Оформить предзаказ</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Доставка</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Официальный сайт Apple</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
     </div>
+    </div>
+
   </header>
+
   <main class="main">
     <section class="offer">
       <div class="container">
@@ -31,47 +45,44 @@
         </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features none">
       <div class="container">
-        <h2 class="title">iPhone 13. Ничего лишнего</h2>
+        <h2 class="features__title title">iPhone 13. Ничего лишнего</h2>
         <ul class="features__list">
-          <li class="features_item">
-            <img src="./blocks/features/img/camera.jpg" alt="Камера" class="features__img">
-            <h3 class="features__title">Камера</h3>
-            <p class="features__description">Система камер PRO.</p>
+          <li class="features__item card">
+            <img class="card__img" src="./blocks/features/img/camera.jpg" alt="Камера">
+            <h3 class="card__title">Камера</h3>
+            <p class="card__description">Система камер PRO.</p>
           </li>
-          <li class="features_item">
-            <img src="blocks/features/img/еquipment.jpg" alt="Комплектация" class="features__img">
-            <h3 class="features__title">Комплектация</h3>
-            <p class="features__description">Зарядное устройство.
-              Беспроводные наушники.</p>
+          <li class="features__item card">
+            <img class="card__img" src="blocks/features/img/еquipment.jpg" alt="Комплектация">
+            <h3 class="card__title">Комплектация</h3>
+            <p class="card__description">Зарядное устройство. Беспроводные наушники.</p>
           </li>
-          <li class="features_item">
-            <img src="./blocks/features/img/color.jpg" alt="Цвет" class="features__img">
-            <h3 class="features__title">Цвет</h3>
-            <p class="features__description">Глубоководный синий.
-              Графитовый.</p>
+          <li class="features__item card">
+            <img class="card__img" src="./blocks/features/img/color.jpg" alt="Цвет">
+            <h3 class="card__title">Цвет</h3>
+            <p class="card__description">Глубоководный синий. Графитовый.</p>
           </li>
-          <li class="features_item">
-            <img src="./blocks/features/img/corpus.jpg" alt="Корпус" class="features__img">
-            <h3 class="features__title">Корпус</h3>
-            <p class="features__description">Водонепроницаемый и противоударный корпус.</p>
+          <li class="features__item card">
+            <img class="card__img" src="./blocks/features/img/corpus.jpg" alt="Корпус">
+            <h3 class="card__title">Корпус</h3>
+            <p class="card__description">Водонепроницаемый и противоударный корпус.</p>
           </li>
-          <li class="features_item">
-            <img src="./blocks/features/img/line.jpg" alt="Линейка" class="features__img">
-            <h3 class="features__title">Линейка</h3>
-            <p class="features__description">iPhone 13, iPhone 13 mini,
-              iPhone 13 Pro и 13 Pro Max.</p>
+          <li class="features__item card">
+            <img class="card__img" src="./blocks/features/img/line.jpg" alt="Линейка">
+            <h3 class="card__title">Линейка</h3>
+            <p class="card__description">iPhone 13, iPhone 13 mini, iPhone 13 Pro и 13 Pro Max.</p>
           </li>
-          <li class="features_item">
-            <img src="./blocks/features/img/charging.jpg" alt="Зарядка" class="features__img">
-            <h3 class="features__title">Зарядка</h3>
-            <p class="features__description">Аккумулятор-магнит.</p>
+          <li class="features__item card">
+            <img class="card__img" src="./blocks/features/img/charging.jpg" alt="Зарядка">
+            <h3 class="card__title">Зарядка</h3>
+            <p class="card__description">Аккумулятор-магнит.</p>
           </li>
         </ul>
       </div>
     </section>
-    <section class="order">
+    <section class="order none">
       <div class="container">
         <h2 class="title">Оформить предзаказ</h2>
         <form class="order__form form" action="#">
@@ -138,7 +149,8 @@
     </section>
 
   </main>
-  <footer class="footer">
+
+  <footer class="footer none">
     <div class="container">
       <div class="footer__copyright">
         <p>© iPhone 13 Promo, 2021</p>
@@ -149,5 +161,11 @@
       </div>
     </div>
   </footer>
+  </div>
+
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
