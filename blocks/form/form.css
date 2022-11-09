@@ -1,0 +1,11 @@
+@import "__block/__block.css";
+@import "__legend/__legend.css";
+@import "__label/__label.css";
+@import "__input/__input.css";
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem 3rem;
+}

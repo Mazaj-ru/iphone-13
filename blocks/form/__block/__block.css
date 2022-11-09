@@ -1,12 +1,8 @@
-.card__img {
-  margin-bottom: 3.5rem;
-  box-shadow: 0 1rem 4rem 1rem rgba(0, 0, 0, 0.06);
+.form__block {
+  width: calc(50% - 3rem);
+  border: .1rem solid #C9C9C9;
   border-radius: 3.4rem;
-}
-
-/* (max-width: 767px) */
-@media (max-width: 47.9375em) {
-
+  padding: 7rem 8rem 10rem;
 }
 
 /* (min-width: 1440px) and (max-width: 1599px) */
@@ -16,7 +12,9 @@
 
 /* (min-width: 1024px) and (max-width: 1439px) */
 @media (min-width: 64em) and (max-width: 89.9375em) {
-
+  .form__block {
+    padding: 3.5rem 4rem 5rem;
+  }
 }
 
 /* (min-width: 768px) and (max-width: 1023px) */
@@ -26,9 +24,8 @@
 
 /* (max-width: 767px) */
 @media (max-width: 47.9375em) {
-  .card__img {
-    margin-bottom: 7rem;
-    box-shadow: 0 2rem 8rem 2rem rgba(0, 0, 0, 0.06);
-    border-radius: 6.8rem;
+  .form__block {
+    width: 100%;
+    padding: 3.5rem 4rem 5rem;
   }
 }
