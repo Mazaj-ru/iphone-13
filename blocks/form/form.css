@@ -2,10 +2,12 @@
 @import "__legend/__legend.css";
 @import "__label/__label.css";
 @import "__input/__input.css";
+@import "__submit/__submit.css";
 
 .form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 6rem 3rem;
+  margin-bottom: 8rem;
 }

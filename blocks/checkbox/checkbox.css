@@ -1,0 +1,11 @@
+@import "__input/__input.css";
+
+.checkbox {
+  position: relative;
+  display: block;
+  margin-bottom: 2.6rem;
+  line-height: 4rem;
+  padding-left: 7rem;
+  cursor: pointer;
+  font-weight: 400;
+}

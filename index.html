@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/SFUIText-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/SFUIText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/SFUIText-Medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="blocks/logo/img/logo.svg">
   <title>iphone-13</title>
 </head>
 
@@ -109,7 +113,7 @@
     <section class="order">
       <div class="container">
         <h2 class="title order__title">Оформить предзаказ</h2>
-        <form class="order__form form" action="#">
+        <form class="order__form form" id="form-order" action="#">
 
           <fieldset class="form__block">
             <legend class="form__legend">Персональные данные</legend>
@@ -154,27 +158,29 @@
           <fieldset class="form__block">
             <legend class="form__legend">Аксессуары</legend>
             <label class="form__label checkbox">
-              <input type="checkbox" name="accessories" id="case">Чехол
+              <input class="checkbox__input" type="checkbox" name="accessories" id="case">Чехол
             </label>
             <label class="form__label checkbox">
-              <input type="checkbox" name="accessories" id="airPods">Наушники AirPods 3
+              <input class="checkbox__input" type="checkbox" name="accessories" id="airPods">Наушники AirPods 3
             </label>
             <label class="form__label checkbox">
-              <input type="checkbox" name="accessories" id="galss">Защитное стекло
+              <input class="checkbox__input" type="checkbox" name="accessories" id="galss">Защитное стекло
             </label>
             <label class="form__label checkbox">
-              <input type="checkbox" name="accessories" id="mageSafe">Зарядное устройство MagSafe
+              <input class="checkbox__input" type="checkbox" name="accessories" id="mageSafe">Зарядное устройство MagSafe
             </label>
           </fieldset>
 
-          <button class="form__submit btn" type="submit">Оформить</button>
+
         </form>
+
+        <button class="form__submit btn" type="submit" form="form-order">Оформить</button>
       </div>
     </section>
 
   </main>
 
-  <footer class="footer none">
+  <footer class="footer">
     <div class="container">
       <div class="footer__copyright">
         <p>© iPhone 13 Promo, 2021</p>
