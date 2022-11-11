@@ -1,5 +1,7 @@
 @import "normalize.css";
+@import "choices.min.css";
 @import "settings.css";
 @import "fonts.css";
 @import "../blocks/blocks.css";
+
 

@@ -28,14 +28,14 @@ window.addEventListener('resize', function(){
     hamburger.classList.remove("active");
 })
 
-// new Choices('#model', {
-//     searchEnabled: false,
-//     itemSelectText: '',
-// });
-// new Choices('#color', {
-//     searchEnabled: false,
-//     itemSelectText: '',
-// });
+new Choices('#model', {
+    searchEnabled: false,
+    itemSelectText: '',
+});
+new Choices('#color', {
+    searchEnabled: false,
+    itemSelectText: '',
+});
 
 
 // $('#form-order').on('submit', function(event) {
