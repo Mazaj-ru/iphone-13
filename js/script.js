@@ -38,18 +38,21 @@ new Choices('#color', {
 });
 
 
-// $('#form-order').on('submit', function(event) {
-//     event.preventDefault();
-//     $.ajax({
-//         url: 'https://jsonplaceholder.typicode.com/posts',
-//         method: 'POST',
-//         dataType: 'html',
-//         data: $('#form-order').serialize(),
-//         success: function(data) {
-//             console.log(data);
-//             $('#form-order').html('<p class="success">Спасибо ваша заявка успешно отправлена!</p>');
-//             $('.form__btn').hide();
-//             $('.order__title').hide();
-//         }
-//     })
-// })
+$('#form-order').on('submit', function(event) {
+    event.preventDefault();
+    $.ajax({
+        url: 'https://jsonplaceholder.typicode.com/posts',
+        method: 'POST',
+        dataType: 'html',
+        data: $('#form-order').serialize(),
+        success: function(data) {
+            console.log(data);
+            $('#form-order').html('<p class="success">Спасибо ваша заявка успешно отправлена!<br>Отправленный данные находятся в console</p>');
+            $('.form__submit').hide();
+            $('.order__title').hide();
+            $(function(){
+              $(".success").delay(10000).slideUp(300);
+            });
+        }
+    })
+})
