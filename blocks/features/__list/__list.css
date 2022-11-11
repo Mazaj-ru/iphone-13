@@ -4,11 +4,6 @@
   gap: 6rem 3rem;
 }
 
-/* (min-width: 1440px) and (max-width: 1599px) */
-@media (min-width: 90em) and (max-width: 99.9375em) {
-
-}
-
 /* (min-width: 1024px) and (max-width: 1439px) */
 @media (min-width: 64em) and (max-width: 89.9375em) {
   .features__list {

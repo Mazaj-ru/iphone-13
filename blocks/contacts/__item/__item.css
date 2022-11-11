@@ -1,0 +1,6 @@
+.contacts__item {
+  margin-bottom: 1.3rem;
+}
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
